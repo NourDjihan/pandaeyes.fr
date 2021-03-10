@@ -1,0 +1,17 @@
+#post-footer {
+  padding-top: 50px;
+  text-align: center;
+  color: #878787;
+}
+
+#post-footer p {
+  margin: 0;
+}
+
+#post-footer a {
+  color: #878787;
+}
+
+#company-logo {
+  height: 75px;
+}

@@ -1,0 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto&display=swap');
+
+:root {
+  --page-width: 900px;
+  --post-font-family: 'Roboto', sans-serif;
+  --post-header-font-family: 'Merriweather Sans', sans-serif;
+  --post-font-size: 18px;
+}
+
+body {
+  font-family: var(--post-font-family);
+  font-size: var(--post-font-size);
+  position: absolute;
+  margin: 0;
+  width: 100%;
+}
+
+article {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--post-header-font-family);
+}
+
+h1 {
+  margin-top: 80px;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+p {
+  line-height: 28px;   /* within paragraph */
+  margin-bottom: 31px; /* between paragraphs */
+}

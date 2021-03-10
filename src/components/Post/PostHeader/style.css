@@ -1,0 +1,15 @@
+#post-header {
+  margin-bottom: 30px;
+}
+
+#post-header h1 {
+  font-size: 30pt;
+  margin-bottom: 15px;
+}
+
+#date-published {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 300;
+  font-style: italic;
+}
