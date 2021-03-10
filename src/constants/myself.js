@@ -1,4 +1,3 @@
-export const NAME = 'Oleksandr Zaitsev';
-export const WEBSITE = 'https://www.oleks.fr';
-export const GITHUB = 'https://github.com/olekscode';
-export const TWITTER = 'https://twitter.com/oleks_lviv';
+export const NAME = 'Nour Jihene Agouf';
+export const WEBSITE = 'https://www.nourjihene.fr';
+export const GITHUB = 'https://github.com/NourDjihan';

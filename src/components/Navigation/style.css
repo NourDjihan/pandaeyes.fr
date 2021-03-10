@@ -27,15 +27,6 @@
   height: 100%;
 }
 
-#navbar-landing img {
-  display: inline;
-  margin: 0 17px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 50px;
-  border-radius: 50%;
-}
-
 #navbar-landing-title, #navbar-landing-asciimoji {
   display: inline-block;
   vertical-align: top;
@@ -54,10 +45,6 @@
 
 #navbar-landing-title a:hover {
   text-decoration: underline;
-}
-
-#navbar-landing-asciimoji {
-  padding-left: 12px;
 }
 
 #navbar-navigation {

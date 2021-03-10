@@ -6,8 +6,6 @@ import './style.css';
 import * as MYSELF from '../../constants/myself';
 import * as ROUTES from '../../constants/routes';
 
-import profilePicture from './img/profile.jpg';
-
 class Navigation extends React.Component {
   constructor(props) {
     super(props);
@@ -47,9 +45,7 @@ class Navigation extends React.Component {
       <div id='navbar' class={this.state.isScrollOnTopOfThePage ? 'notFloatingNav' : 'floatingNav'}>
         <div id="navbar-landing">
           <a href={ROUTES.LANDING}>
-            <img src={profilePicture} alt='' />
-            <div id='navbar-landing-title'><p>Oleksandr's Blog</p></div>
-            <div id='navbar-landing-asciimoji'><p>ʕ·͡ᴥ·ʔ</p></div>
+            <div id='navbar-landing-title'><p>PandaEyes</p></div>
           </a>
         </div>
         <div id='navbar-navigation'>
